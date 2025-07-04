@@ -1,0 +1,19 @@
+.products_row{
+    display: flex;
+    z-index: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+   
+    
+
+ /* .products_row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px; 
+  margin: 20px;
+  padding: 10px;
+} */
