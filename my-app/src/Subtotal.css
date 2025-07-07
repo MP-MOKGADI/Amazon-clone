@@ -1,0 +1,38 @@
+/* Example class selector for Subtotal */
+.subtotal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+  padding: 20px;
+  background-color: #f3f3f3;
+  border: 1px solid#dddddd;
+  border-radius: 3px;
+}
+.subtotal__gift {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.subtotal__gift input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+.subtotal button {
+    background: #ffd814;
+    border: 1px solid #fcd200;
+    border-radius: 2px;
+    width: 100%;
+    height: 30px;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    color: black;
+}
+
+.subtotal button:hover {
+    background: #f7ca00;
+}

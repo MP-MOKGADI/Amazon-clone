@@ -4,16 +4,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min';
-import { AuthContextProvider } from './context/AuthContext';
+import {ShoppingState} from './context/shopping/ShoppingState';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 
     <BrowserRouter>
   
-      <AuthContextProvider>
-        <App />
-      </AuthContextProvider>
+      
+        <ShoppingState>
+          <App />
+        </ShoppingState>
+      
     </BrowserRouter>
   
 );
