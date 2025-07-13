@@ -645,3 +645,21 @@ Issues? Report them at https://github.com/firebase/firebase-tools/issues and att
 [debug] [2025-07-13T17:12:26.767Z] Could not find functions.yaml. Must use http discovery
 [debug] [2025-07-13T17:12:27.000Z] Found firebase-functions binary at 'C:\Users\USER\Desktop\Amazon-clone2\my-app\functions_new\node_modules\.bin\firebase-functions'
 [debug] [2025-07-13T17:12:27.778Z] Failed to call quitquitquit. This often means the server failed to start request to http://localhost:8124/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8124 {"message":"request to http://localhost:8124/__/quitquitquit failed, reason: connect ECONNREFUSED ::1:8124","type":"system","errno":"ECONNREFUSED","code":"ECONNREFUSED"}
+[info] Serving at port 8124
+
+[info] Serving at port 8665
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification. Timeout after 10000. See https://firebase.google.com/docs/functions/tips#avoid_deployment_timeouts_during_initialization' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification. Timeout after 10000. See https://firebase.google.com/docs/functions/tips#avoid_deployment_timeouts_during_initialization'"}}
+[error] Error: Neither apiKey nor config.authenticator provided
+    at Stripe._setAuthenticator (C:\Users\USER\Desktop\Amazon-clone2\my-app\functions_new\node_modules\stripe\cjs\stripe.core.js:155:23)
+    at new Stripe (C:\Users\USER\Desktop\Amazon-clone2\my-app\functions_new\node_modules\stripe\cjs\stripe.core.js:93:14)
+    at Stripe (C:\Users\USER\Desktop\Amazon-clone2\my-app\functions_new\node_modules\stripe\cjs\stripe.core.js:49:20)
+    at Object.<anonymous> (C:\Users\USER\Desktop\Amazon-clone2\my-app\functions_new\index.js:6:33)
+    at Module._compile (node:internal/modules/cjs/loader:1364:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+    at Module.load (node:internal/modules/cjs/loader:1203:32)
+    at Module._load (node:internal/modules/cjs/loader:1019:12)
+    at Module.require (node:internal/modules/cjs/loader:1231:19)
+    at require (node:internal/modules/helpers:177:18)
+
+[error] !!  functions: Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification. Timeout after 10000. See https://firebase.google.com/docs/functions/tips#avoid_deployment_timeouts_during_initialization' {"metadata":{"emulator":{"name":"functions"},"message":"Failed to load function definition from source: FirebaseError: User code failed to load. Cannot determine backend specification. Timeout after 10000. See https://firebase.google.com/docs/functions/tips#avoid_deployment_timeouts_during_initialization'"}}
